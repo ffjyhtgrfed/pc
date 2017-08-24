@@ -1,0 +1,83 @@
+
+<header id="one_header">
+	<p>积分商城</p>
+</header>
+<div class="margin">
+
+</div>
+<div class="swiper-container one_banner">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner1.jpg"/></div>
+		<div class="swiper-slide"><img src="images/banner2.jpg"/></div>
+		<div class="swiper-slide"><img src="images/banner3.jpg"/></div>
+	</div>
+</div>
+<!--导航-->
+<div class="one_nav">
+	<div>
+		<img src="images/ico5.png" alt="" />
+		<p>新品专区</p>
+	</div>
+	<div>
+		<img src="images/ico2.png" alt="" />
+		<p>送礼首选</p>
+	</div>
+	<div>
+		<img src="images/ico3.png" alt="" />
+		<p>积分获取</p>	
+	</div>
+	<div>
+		<img src="images/ico4.png" alt="" />
+		<p>私人订制</p>
+	</div>
+</div>
+<!--第一个页面的内容-->
+<div class="one_cont"> 
+	<!--标题-->
+	<div class="one_title">
+		<span>——</span>新年专区<span>——</span>
+	</div>
+	
+	<!--相机内容-->
+	<div class="onecont_top">
+		
+		<!--第一个-->
+		<div class="top_all">
+			<div class="all_text">
+				<p>单反相机，彰显..</p>
+				<span>积分：<b>10000000</b></span>
+			</div>
+			<div class="all_img">
+				<img src="images/xj.jpg" alt="" />
+			</div>
+		</div>
+		
+		<!--第二个-->
+		<div class="top_all">
+			<div class="all_text">
+				<p>单反相机，彰显..</p>
+				<span>积分：<b>10000000</b></span>
+			</div>
+			<div class="all_img">
+				<img src="images/xj.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+	
+	<!--叮当猫内容-->
+	<div class="onecont_bottom">
+		<div class="clatter" ng-repeat="a in data">
+			<img ng-src="{{a.img}}" alt=""/>
+			<p>{{a.pp}}</p>
+			<span>{{a.sp}}<b>{{a.bb}}</b></span>
+		</div>
+	</div>
+</div>
+<script>
+    $('div').mouseenter(function(){
+        $(this).animate({
+            opacity:0
+
+        });
+    });
+</script>

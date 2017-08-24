@@ -1,0 +1,13 @@
+app.config(function($routeProvider){
+	$routeProvider.when("/sy",{
+		templateUrl:"templates/one.html",
+		controller:"Ctr"
+	}).when("/fl",{
+		templateUrl:"templates/two.html",
+		controller:"Ctr"
+	}).when("/gwc",{
+		templateUrl:"templates/three.html"
+	}).when("/wd",{
+		templateUrl:"templates/four.html"
+	})
+})

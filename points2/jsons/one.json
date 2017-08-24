@@ -1,0 +1,35 @@
+{
+	"arr":[
+		{
+		"img":"images/dd.jpg",
+		"pp":"实现梦想的多啦..",
+		"sp":"积分",
+		"bb":"100000"
+		},
+		{
+		"img":"images/dd.jpg",
+		"pp":"实现梦想的多啦..",
+		"sp":"积分",
+		"bb":"100000"
+		},
+		{
+		"img":"images/dd.jpg",
+		"pp":"实现梦想的多啦..",
+		"sp":"积分",
+		"bb":"100000"
+		}
+	],
+	"two_as":[
+		{"text":"家居家纺","img":"images/jiaju.jpg"},
+		{"text":"3C数码","img":"images/3c.jpg"},
+		{"text":"家用电器","img":"images/dianqi.jpg"},
+		{"text":"厨房小电","img":"images/chufang.jpg"},
+		{"text":"零食小吃","img":"images/lingshi.jpg"},
+		{"text":"酒水饮料","img":"images/13.jpg"},
+		{"text":"个护健康","img":"images/gehu.jpg"},
+		{"text":"生活电器","img":"images/shenghuo.jpg"},
+		{"text":"服饰","img":"images/3f2.jpg"},
+		{"text":"生鲜水果","img":"images/sg.jpg"}
+		
+	]
+}
